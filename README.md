@@ -16,11 +16,11 @@ Please note that this project is a work in progress and is being worked on as yo
 The class **Hyp_Test_1Pop**, conducts hypothesis tests for single-populations. Object uses the inputs: **var_X, var_Y, unit, data_Y, P_hyp, alp, para, testType,** and **P_StdDev**.
 
 ### Hyp_Test_1Pop Attributes
-var_X: the independent variable of the test.
+`var_X`: the independent variable of the test.
 
-var_Y: the dependent variable of the test.
+`var_Y`: the dependent variable of the test.
 
-unit: this is unit being used in for the data.
+`unit`: this is unit being used in for the data.
 
 data_Y: these are the data values, which can be in the form of a list or can be read from a file using the **pandas** library.
 
