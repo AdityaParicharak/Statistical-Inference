@@ -22,16 +22,16 @@ The class **Hyp_Test_1Pop**, conducts hypothesis tests for single-populations. O
 
 `unit`: this is unit being used in for the data.
 
-data_Y: these are the data values, which can be in the form of a list or can be read from a file using the **pandas** library.
+`data_Y`: these are the data values, which can be in the form of a list or can be read from a file using the **pandas** library.
 
-P_hyp: this is the hypothesized value of the parameter which is usually decided prior to the test.
+`P_hyp`: this is the hypothesized value of the parameter which is usually decided prior to the test.
 
-alp: this is the significance level, also known as $\alpha$, which is the probability of rejecting the null hypothesis, $H_{o}$.
+`alp`: this is the significance level, also known as $\alpha$, which is the probability of rejecting the null hypothesis, $H_{o}$.
 
-para: this is the parameter being tested, i.e. mean or proportion.
+`para`: this is the parameter being tested, i.e. mean or proportion.
 
-testType: this is the type of test being performed, i.e. double-sided, right-sided, or left sided.
+`testType`: this is the type of test being performed, i.e. double-sided, right-sided, or left sided.
 
-P_StdDev: this is an optional attribute which used when the population standard deviation is known.
+`P_StdDev`: this is an optional attribute which used when the population standard deviation is known.
 
 
