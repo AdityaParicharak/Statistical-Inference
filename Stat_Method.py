@@ -297,6 +297,10 @@ class Hyp_Test_1Pop():
         else:
             self.z_c()
 
+        print("the conclusion is")
+
+        
+
 
 
 
