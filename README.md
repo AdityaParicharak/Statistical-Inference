@@ -15,7 +15,7 @@ Please note that this project is a work in progress and is being worked on as yo
 
 This project has used the language python, and consists of one class so far. The class **Hyp_Test_1Pop**, conducts hypothesis tests for single-populations.
 
-### Hyp_Test_1Pop Attributes
+## __Hyp_Test_1Pop Attributes__
 Object uses the inputs: **var_X, var_Y, unit, data_Y, P_hyp, alp, para, testType,** and **P_StdDev**.
 
 `var_X`: the independent variable of the test.
