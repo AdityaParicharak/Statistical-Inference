@@ -6,16 +6,18 @@ A p-value is just a number if you don't know what to do with it. For instance, w
 
 There may be other software out there that may make this project redundant. However, this is my personal project that I plan to further develop by automating and evolving it with the use of machine learning, deep learning, neural networks, natural language processing, and other artificial intelligence concepts. At the moment, I am restricted by my knowledge, but this will soon no longer be a limitation once I expand my intellectual horizons. For now, this is my take on a program that makes statistical inferences for you.
 
-# From Author to Viewer
+# From Creator to Respected Viewer
 I appreciate your time and interest in my work. If you have any question or suggestions, or would like to connect with me, you may email me at **adi.paricharak@gmail.com**. My **LinkedIn** page can be accessed [here](www.linkedin.com/in/aditya-paricharak-2003asp).
 
 Please note that this project is a work in progress and is being worked on as you read this. You may not be seeing the most recent python file when navigating through this repository. I will make updates as I progress. Thank you!
 
 # About The Code
 
-The class **Hyp_Test_1Pop**, conducts hypothesis tests for single-populations. Object uses the inputs: **var_X, var_Y, unit, data_Y, P_hyp, alp, para, testType,** and **P_StdDev**.
+This project has used the language python, and consists of one class so far. The class **Hyp_Test_1Pop**, conducts hypothesis tests for single-populations.
 
 ### Hyp_Test_1Pop Attributes
+Object uses the inputs: **var_X, var_Y, unit, data_Y, P_hyp, alp, para, testType,** and **P_StdDev**.
+
 `var_X`: the independent variable of the test.
 
 `var_Y`: the dependent variable of the test.
@@ -33,5 +35,10 @@ The class **Hyp_Test_1Pop**, conducts hypothesis tests for single-populations. O
 `testType`: this is the type of test being performed, i.e. double-sided, right-sided, or left sided.
 
 `P_StdDev`: this is an optional attribute which used when the population standard deviation is known.
+
+#### Examples of Objects of Hyp_Test_1Pop: 
+- `exampleVariable1 = Hyp_Test_1Pop(X, Y, kilos, list, 20, 0.05, proportion, double-sided)`
+- `exampleVariable2 = Hyp_Test_1Pop("age", "gained weight", grams, data_list, 80, 0.01, mean, left-sided, 5.4)`
+
 
 
