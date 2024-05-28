@@ -36,7 +36,7 @@ Object uses the inputs: **var_X, var_Y, unit, data_Y, P_hyp, alp, para, testType
 
 `P_StdDev`: this is an optional attribute which used when the population standard deviation is known.
 
-#### Examples of Objects of Hyp_Test_1Pop: 
+#### Examples for Objects of Hyp_Test_1Pop: 
 - `exampleVariable1 = Hyp_Test_1Pop('X', 'Y', 'kilos', list, 20, 0.05, 'proportion', 'double-sided')`
 - `exampleVariable2 = Hyp_Test_1Pop('age', 'gained weight', 'grams', data_list, 80, 0.01, 'mean', 'left-sided', 5.4)`
 
