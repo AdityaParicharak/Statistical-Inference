@@ -1,5 +1,5 @@
 # Statistical-Inference <sup> $\gamma$.
-This personal project aims to delve into fundamental statistical inference techniques, enabling users to draw meaningful conclusions from datasets. At its current stage, as of May 26th of 2024, the repository houses code dedicated to single population hypothesis testing. However, this is just the beginning.
+This personal project aims to delve into fundamental statistical inference techniques, enabling users to draw meaningful conclusions from datasets. At the time of this state of development, the repository houses code dedicated to single population hypothesis testing. However, this is just the beginning.
 
 # Purpose
 A p-value is just a number if you don't know what to do with it. For instance, what does a person not versed in statistics do when they see "p-value = 0.04" on a matrix of statistical numbers? There are several software programs, like MiniTab, R, and SAS, that help in inferential statistics by providing numerical values that we use to draw conclusions. This project does somewhat the same, but instead of just the numbers, you will be given an understanding of what those numbers mean. In other words, the interpretation will be done for you.
