@@ -250,6 +250,46 @@ class Hyp_Test_1Pop():
 
 
 
+    def TestStatistic(self):
+        d_f_ = 0.0
+        t = 0.0
+        z = 0.0
+        statement = "___"
+        S_mean = self.sampleMean()
+        P_hyp = self.hypothesisedValue()
+        S_StdDev = self.sampleStdDev()
+        S_size = self.sampleSize()
+        popSTDdev = self.populationStdDev()
+
+        if popSTDdev == 0:
+            z = 0
+            t = ((S_mean - P_hyp) / 
+                (S_StdDev / ms.sqRT(S_size)))
+            d_f_ = S_size - 1     
+        else:
+            t = 0
+            sigma_xBar = (popSTDdev / 
+                         ms.sqRT(S_size))
+            z = (S_mean - P_hyp) / sigma_xBar
+            print("Z score = ", z)
+        if z != 0:
+            statement = f"The Z score is {z}"
+        if t != 0:
+            statement = f"The t statistic is {t}"
+
+        return statement
+        
+        
+            
+        
+
+
+
+
+
+
+
+
     def t_c(self):
         S_mean = self.sampleMean()
         P_hyp = self.hypothesisedValue()
@@ -280,26 +320,22 @@ class Hyp_Test_1Pop():
             z = (S_mean - hyp_prm) / sigma_xBar
             print("Z score = ", z)
 
-    def desition(self):
+    def conclusion(self):
         alp = self.alpha
 
 
-
-
-
-    def runStatInference(self):
+    def runAnalysis(self):
         self.assumptions()
         self.hypotheses()
         popSTDdev = self.populationStdDev()
-        
-        if popSTDdev == 0:
-            self.t_c()
-        else:
-            self.z_c()
-
-        print("the conclusion is")
+        statiscVal = self.TestStatistic()
 
         
+        
+        
+        
+
+
 
 
 
