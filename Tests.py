@@ -14,5 +14,5 @@ A = parentCode("patients", "vaccine dosage", "mls", testList, 3, 0.5, 'mu', 'lef
 #print(A.sampleStdDev())
 #A.t_c()
 A.runAnalysis()
-A.TestStatistic()
+
 
